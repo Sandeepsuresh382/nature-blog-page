@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#f1f1f1;
+    font-family:"inter",sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.blog-page{
+    background-color:white;
+    padding:40px 50px;
+    border-radius:16px;
+    text-align:center;
+    max-width:500px;
+    width:100%;
+}
+
+.blog-img{
+    width:100%;
+    height:250px;
+    border-radius:16px;
+    object-fit:cover;
+    margin-bottom:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1.8);
+
+}
+.blog-page h1{
+    margin:10px 0 8px;
+    color:black;
+    font-size:20px;
+}
+.bio{
+    margin:10px 0 8px;
+    font-size:10px;
+    letter-spacing:1px;
+
+}
+
+button{
+    display:inline-block;
+    color:rgb(20, 177, 128);
+    font-size:10px;
+    margin:0;
+    border:0;
+}
+
+button:hover{
+    color:blue;
+
+}
